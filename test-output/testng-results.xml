@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-24T18:43:36 EET" name="Default suite" finished-at="2024-06-24T18:44:17 EET" duration-ms="40319">
+    <groups>
+    </groups>
+    <test started-at="2024-06-24T18:43:36 EET" name="Default test" finished-at="2024-06-24T18:44:17 EET" duration-ms="40319">
+      <class name="ClassOne">
+        <test-method is-config="true" signature="mybeforetest()[pri:0, instance:ClassOne@75cd8043]" started-at="2024-06-24T18:43:36 EET" name="mybeforetest" finished-at="2024-06-24T18:43:39 EET" duration-ms="2597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mybeforetest -->
+        <test-method signature="addrandomitem()[pri:1, instance:ClassOne@75cd8043]" started-at="2024-06-24T18:43:39 EET" name="addrandomitem" finished-at="2024-06-24T18:43:44 EET" duration-ms="4889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addrandomitem -->
+        <test-method signature="checkout()[pri:2, instance:ClassOne@75cd8043]" started-at="2024-06-24T18:43:44 EET" name="checkout" finished-at="2024-06-24T18:44:08 EET" duration-ms="23955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method signature="signup()[pri:3, instance:ClassOne@75cd8043]" started-at="2024-06-24T18:44:08 EET" name="signup" finished-at="2024-06-24T18:44:17 EET" duration-ms="8841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="myaftertest()[pri:0, instance:ClassOne@75cd8043]" started-at="2024-06-24T18:44:17 EET" name="myaftertest" finished-at="2024-06-24T18:44:17 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myaftertest -->
+      </class> <!-- ClassOne -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
